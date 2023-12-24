@@ -45,7 +45,7 @@ axios.interceptors.response.use(
         break;
       case 401:
         localStorage.removeItem("auth_token");
-        window.location.href = window.location.origin + "/login"
+        // window.location.href = window.location.origin + "/login"
         message = "Invalid credentials";
         break;
       case 404:

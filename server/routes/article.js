@@ -16,7 +16,7 @@ router.route("/article")
 .post(isAuthenticated,create_article)
 
 router.route("/article/all")
-.get(isAuthenticated,get_all_articles)
+.get(get_all_articles)
 
 router.route("/article/:id")
 .get(isAuthenticated,get_article_by_id)
