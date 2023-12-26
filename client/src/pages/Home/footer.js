@@ -14,7 +14,7 @@ const Footer = () => {
                         <Col lg={4} className="mt-4">
                             <div>
                                 <div>
-                                    <img src='' alt="logo light" height="17" />
+                                    <img src='' alt="logo" height="17" />
                                 </div>
                                 <div className="mt-4">
                                     <p>Loremf sadjhieo4rue v afjelkhfhjfkfjkhfhdj</p>
